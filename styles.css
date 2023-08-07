@@ -1,0 +1,276 @@
+/*.hero {
+    background-image: url("images/waves.webp");
+    background-size: cover;
+
+}
+*/
+body {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+
+    font-family: lato, sans-serif;
+
+}
+
+/*.page-container {
+    width: 900px;
+    margin: 0px auto;
+}
+*/
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: black;
+    color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+
+    width: 100%;
+
+
+    background: black;
+
+}
+
+.navbar-logo {
+    font-size: 22px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+
+    align-items: center;
+
+
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero {
+
+    height: 90vh;
+    background-image: url("images/hero5.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+
+
+
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero h3 {
+    font-style: italic;
+}
+
+.underline {
+    border-bottom: 3px solid #CF7500;
+    /*text-decoration: underline;*/
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about-me {
+    height: 100%;
+    background: #222222;
+    color: whitesmoke;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    max-width: 600px;
+}
+
+.about-me h5 {
+    font-size: 18px;
+}
+
+.tools p {
+    font-size: 12px;
+    background: whitesmoke;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.projects {
+    padding-top: 50px;
+    background-image: url("images/hero5.jpg");
+    background-size: cover;
+}
+
+.projects img {
+    width: 300px;
+    height: 200px;
+}
+
+.projects img:hover {
+    width: 305px;
+    height: 201px;
+}
+
+.projects p {
+
+    font-size: 12px;
+    font-style: italic;
+}
+
+.projects h4 {
+    font-size: 18px;
+
+
+}
+
+.projects h6 {
+    background: gray;
+    font-size: 14px;
+    display: inline;
+    font-style: italic;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.featured-projects-items {
+    width: 400px;
+    cursor: pointer;
+}
+
+
+/*.projects h4,
+.projects h6 {
+    width: 300px;
+}
+*/
+
+.featured-projects-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+}
+
+@media (max-width: 800px) {
+
+    .featured-projects-container,
+    .navbar,
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        padding: 0;
+        list-style-type: none;
+        float: left;
+    }
+
+    .featured-projects-items {
+        margin-bottom: 50px;
+    }
+
+    .hero h1 {
+        padding-top: 150px;
+    }
+}
+
+.archive {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+
+}
+
+.archive-items-container {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.archive-items-items {
+    display: block;
+    text-align: justify;
+    padding: 2px;
+
+}
+
+.archive h3 {
+    text-align: center;
+}
+
+button,
+button a {
+    background: #CF7500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contact {
+    border-top: 1px solid gray;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+
+    background: #222222;
+    color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
